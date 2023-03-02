@@ -1,0 +1,53 @@
+body{
+    overflow-x: hidden;
+}
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-track{
+    background: #fff;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(0, 195, 255);
+    width: 5px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+}
+.filtstky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.shop{
+    margin-right: 5px;
+    overflow-x: hidden;
+}
+.shop::-webkit-scrollbar{
+    width: 8px;
+    
+}
+.shop::-webkit-scrollbar-track{
+    background: #ffffff67;
+}
+.shop::-webkit-scrollbar-thumb{
+    background: rgb(0, 255, 106);
+    width: 5px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+}
+
+.filtstky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.my-card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: .3s;
+}
+.my-card{
+    min-height: 370px;
+}

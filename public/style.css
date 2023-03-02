@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+:root{
+    --primary-color: #fD4766;
+    --secondery-color: #0e1525;
+    --bg-dark-blue:#091020;
+    --bg-white: #fff;
+    --gray-color:#c6c9d8bf;
+    --gradient-color: linear-gradient(-224deg, var(--primary-color) 0, #337DFF 100%);
+    --gradient-text: liner-gradinet(120deg, #1C99FE 20.69%, #7644FF 50.19%, var(--primary-color) 79.69%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--primary-color)', endColorstr='var(--secondery-color)', GradientType=1);
+
+    /* text color */
+    --primary-font: 'poppins', sans-serif;
+    --primary-text: #fD4766;
+    --text-gray:#c6c9d8bf;
+    --text-white:#fff;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* custom css */
